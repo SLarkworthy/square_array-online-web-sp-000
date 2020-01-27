@@ -7,5 +7,6 @@
 # end
 
 def square_array(array)
-  square_array(array).collect {|num| num * num}
+  squarray = square_array(array).collect {|num| num * num}
+  return squarray
 end
